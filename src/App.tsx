@@ -1,10 +1,13 @@
 import React from 'react';
-import Header from './components/Header/Header';
+import { Routes, Route } from 'react-router-dom';
+import Hero from './pages/Hero';
 
 const App = () => {
   return (
     <div>
-      <Header />
+      <Routes>
+        <Route path='/' element={<Hero />} />
+      </Routes>
     </div>
   );
 };
