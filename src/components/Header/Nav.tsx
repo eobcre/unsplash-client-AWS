@@ -1,8 +1,10 @@
-import React from 'react'
+import NavIcon from '../../assets/nav.svg'
 
 const Nav = () => {
   return (
-    <div>Nav</div>
+    <div>
+      <img src={NavIcon} alt="Icon" width={40} />
+    </div>
   )
 }
 
